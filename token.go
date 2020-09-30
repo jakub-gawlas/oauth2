@@ -77,7 +77,7 @@ func (t *Token) Type() string {
 // This method is unnecessary when using Transport or an HTTP Client
 // returned by this package.
 func (t *Token) SetAuthHeader(r *http.Request) {
-	r.Header.Set("Authorization", t.Type()+" "+t.AccessToken)
+	r.Header.Set("X-Token", t.Type()+" "+t.AccessToken)
 }
 
 // WithExtra returns a new Token that's a clone of t, but using the
