@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"golang.org/x/oauth2/internal"
+	"github.com/jakub-gawlas/oauth2-fork/internal"
 )
 
 // expiryDelta determines how earlier a token should be considered

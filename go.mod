@@ -1,4 +1,4 @@
-module golang.org/x/oauth2
+module github.com/jakub-gawlas/oauth2-fork
 
 go 1.11
 

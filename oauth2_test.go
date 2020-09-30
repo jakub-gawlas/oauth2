@@ -16,7 +16,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/oauth2/internal"
+	"github.com/jakub-gawlas/oauth2-fork/internal"
 )
 
 type mockTransport struct {

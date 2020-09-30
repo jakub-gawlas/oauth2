@@ -13,7 +13,7 @@ import (
 	"net/url"
 	"testing"
 
-	"golang.org/x/oauth2/internal"
+	"github.com/jakub-gawlas/oauth2-fork/internal"
 )
 
 func newConf(serverURL string) *Config {

@@ -3,10 +3,10 @@
 // license that can be found in the LICENSE file.
 
 // Package uber provides constants for using OAuth2 to access Uber.
-package uber // import "golang.org/x/oauth2/uber"
+package uber // import "github.com/jakub-gawlas/oauth2-fork/uber"
 
 import (
-	"golang.org/x/oauth2"
+	"github.com/jakub-gawlas/oauth2-fork"
 )
 
 // Endpoint is Uber's OAuth 2.0 endpoint.

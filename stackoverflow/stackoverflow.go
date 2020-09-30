@@ -3,10 +3,10 @@
 // license that can be found in the LICENSE file.
 
 // Package stackoverflow provides constants for using OAuth2 to access Stack Overflow.
-package stackoverflow // import "golang.org/x/oauth2/stackoverflow"
+package stackoverflow // import "github.com/jakub-gawlas/oauth2-fork/stackoverflow"
 
 import (
-	"golang.org/x/oauth2"
+	"github.com/jakub-gawlas/oauth2-fork"
 )
 
 // Endpoint is Stack Overflow's OAuth 2.0 endpoint.

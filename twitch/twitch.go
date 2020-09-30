@@ -3,10 +3,10 @@
 // license that can be found in the LICENSE file.
 
 // Package twitch provides constants for using OAuth2 to access Twitch.
-package twitch // import "golang.org/x/oauth2/twitch"
+package twitch // import "github.com/jakub-gawlas/oauth2-fork/twitch"
 
 import (
-	"golang.org/x/oauth2"
+	"github.com/jakub-gawlas/oauth2-fork"
 )
 
 // Endpoint is Twitch's OAuth 2.0 endpoint.

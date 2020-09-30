@@ -11,7 +11,7 @@
 // server.
 //
 // See https://tools.ietf.org/html/rfc6749#section-4.4
-package clientcredentials // import "golang.org/x/oauth2/clientcredentials"
+package clientcredentials // import "github.com/jakub-gawlas/oauth2-fork/clientcredentials"
 
 import (
 	"context"
@@ -20,8 +20,8 @@ import (
 	"net/url"
 	"strings"
 
-	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/internal"
+	"github.com/jakub-gawlas/oauth2-fork"
+	"github.com/jakub-gawlas/oauth2-fork/internal"
 )
 
 // Config describes a 2-legged OAuth2 flow, with both the

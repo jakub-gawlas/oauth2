@@ -3,10 +3,10 @@
 // license that can be found in the LICENSE file.
 
 // Package gitlab provides constants for using OAuth2 to access GitLab.
-package gitlab // import "golang.org/x/oauth2/gitlab"
+package gitlab // import "github.com/jakub-gawlas/oauth2-fork/gitlab"
 
 import (
-	"golang.org/x/oauth2"
+	"github.com/jakub-gawlas/oauth2-fork"
 )
 
 // Endpoint is GitLab's OAuth 2.0 endpoint.

@@ -3,10 +3,10 @@
 // license that can be found in the LICENSE file.
 
 // Package microsoft provides constants for using OAuth2 to access Windows Live ID.
-package microsoft // import "golang.org/x/oauth2/microsoft"
+package microsoft // import "github.com/jakub-gawlas/oauth2-fork/microsoft"
 
 import (
-	"golang.org/x/oauth2"
+	"github.com/jakub-gawlas/oauth2-fork"
 )
 
 // LiveConnectEndpoint is Windows's Live ID OAuth 2.0 endpoint.

@@ -3,10 +3,10 @@
 // license that can be found in the LICENSE file.
 
 // Package paypal provides constants for using OAuth2 to access PayPal.
-package paypal // import "golang.org/x/oauth2/paypal"
+package paypal // import "github.com/jakub-gawlas/oauth2-fork/paypal"
 
 import (
-	"golang.org/x/oauth2"
+	"github.com/jakub-gawlas/oauth2-fork"
 )
 
 // Endpoint is PayPal's OAuth 2.0 endpoint in live (production) environment.

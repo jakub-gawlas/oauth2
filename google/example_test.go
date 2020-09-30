@@ -11,9 +11,9 @@ import (
 	"log"
 	"net/http"
 
-	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/google"
-	"golang.org/x/oauth2/jwt"
+	"github.com/jakub-gawlas/oauth2-fork"
+	"github.com/jakub-gawlas/oauth2-fork/google"
+	"github.com/jakub-gawlas/oauth2-fork/jwt"
 )
 
 func ExampleDefaultClient() {

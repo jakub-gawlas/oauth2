@@ -3,10 +3,10 @@
 // license that can be found in the LICENSE file.
 
 // Package cern provides constants for using OAuth2 to access CERN services.
-package cern // import "golang.org/x/oauth2/cern"
+package cern // import "github.com/jakub-gawlas/oauth2-fork/cern"
 
 import (
-	"golang.org/x/oauth2"
+	"github.com/jakub-gawlas/oauth2-fork"
 )
 
 // Endpoint is CERN's OAuth 2.0 endpoint.

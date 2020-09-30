@@ -11,7 +11,7 @@ import (
 	"net/http"
 	"time"
 
-	"golang.org/x/oauth2"
+	"github.com/jakub-gawlas/oauth2-fork"
 )
 
 func ExampleConfig() {
